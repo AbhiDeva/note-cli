@@ -21,9 +21,18 @@ node app.js <command> [options]
 
 
 ## Commands
-node app.js add --title="Todo" --body="Complete Node.js project"
-node app.js add --title="Books" --body="Read Clean Code"
-node app.js list
-node app.js read --title="Books"
-node app.js remove --title="Todo"
+### Add a note
+node app.js add --title="Todo" --body="Complete Node.js project" 
+node app.js add --title="Books" --body="Read Clean Code" 
+✅ Creates a new note with the given title and body.
+If the title already exists, it will show an error.
+### List all notes
+node app.js list 
+✅ Displays all saved notes (titles only).
+### Read a note
+node app.js read --title="Books" 
+✅ Displays the title and body of the specified note.
+### Remove a note
+node app.js remove --title="Todo" 
+✅ Removes the note with the specified title.
 
